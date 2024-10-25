@@ -19,3 +19,18 @@
         font-size: 15px
     }
 }
+
+@media (max-width: 344px) {
+    .card {
+        padding: 10px;
+        width: 95px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    section div p {
+        font-size: 13px
+    }
+}
