@@ -96,6 +96,16 @@ header {
     color: var(--color-3);
 }
 
+.csharp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.csharp-icon {
+    color: var(--color-3);
+}
+
 .contact {
     text-decoration: none;
     color: var(--color-2);
