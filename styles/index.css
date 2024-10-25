@@ -68,9 +68,11 @@ header {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-1);
     border-radius: 8px;
-    padding: 20px;
+    padding: 20px 45px;
     width: 200px;
     text-align: center;
     transition: transform 0.3s;
@@ -78,6 +80,20 @@ header {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+.card h3 {
+    margin-bottom: 5%;
+}
+
+.card p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card p i {
+    color: var(--color-3);
 }
 
 .contact {
